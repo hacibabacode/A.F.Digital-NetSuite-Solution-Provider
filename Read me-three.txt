@@ -1,0 +1,24 @@
+
+Merhaba;
+İstenilen girdi çıktıyı bulmak için 2 bölüme ayırdım.
+Phase-1 ve Phase 2 olucak şekilde.
+Phase-1 ;
+İlk olarak girilen sayıları oranına göre ayırmam gerekiyordu.
+Öncelikle "0-1-8-18" oranlarını ayırdım.
+ 
+Phase-2;
+Öncesinde ayırdığım oranları şimdi düzenlemem gerekiyor.
+Bu düzenleme oran ve kod benzerliğini göre yapmam gerekiyordu.
+Böylelikle "1" oranını baktığımızda kod "0071" olarak görüyoruz.
+Yani oran ve kod kısmı benzerlik gösteriyor.
+Bundan dolayı tutar toplamanı gerekiyor ve bununla birlikte 58 oluyor.
+Artık tek bi oran olarak diziye ekliyoruz.
+"18" oranını ise yaparken birinin "0071" diğerinin "0073" olduğunu görüyoruz.
+Bundan dolayı benzerlik yoktur. Ve "18" oranı sabit kalmaktadır.
+En son dizimiz şu şekilde olmaktadır;
+Çıktı:
+ {oran:'0',tutar:'10',kod:'0071'}
+ {oran:'1',tutar:'58',kod:'0071'}
+ {oran:'8',tutar:'12',kod:'0073'}
+ {oran:'18',tutar:'23',kod:'0073'}
+ {oran:'18',tutar:'30',kod:'0071'}

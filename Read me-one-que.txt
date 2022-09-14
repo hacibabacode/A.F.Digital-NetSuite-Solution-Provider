@@ -1,0 +1,5 @@
+
+merhaba;
+Bu projede türkiye merkez bankasında USD ve EUR yıllık olmak üzere toplam 10 senelik kayıtlarını js ile çekiyoruz.
+Bu şekilde hangi yılda hangi para birimi daha çok kar yaptığı görmüş oluyoruz.
+Yüzdelik olarak görünmektedir.
